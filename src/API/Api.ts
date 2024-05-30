@@ -1,4 +1,4 @@
-import { callFetch } from "../utils/CallFetch";
+// import { callFetch } from "../utils/CallFetch";
 // export const API_ENDPOINT = "https://jsonplaceholder.typicode.com";
 
 
