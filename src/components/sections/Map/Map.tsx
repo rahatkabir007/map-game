@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
 import {  LatLngExpression, divIcon } from 'leaflet';
 
