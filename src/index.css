@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  background: #f5d176;
 
 }
 
@@ -12,7 +13,7 @@ body {
 .container-x {
   max-width: 1350px !important;
   width: 85%;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }

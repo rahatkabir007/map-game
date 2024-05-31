@@ -20,7 +20,7 @@ const Map = ({ onCitySelected }: MapProps) => {
     };
 
     return (
-        <MapContainer center={[54.5260, 15.2551]} zoom={4} style={{ height: '100vh', width: '100%' }}>
+        <MapContainer center={[54.5260, 15.2551]} zoom={4} style={{ height: '70vh', width: '100%', border: "1px solid #d8d8d8", borderRadius: "10px" }}>
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
