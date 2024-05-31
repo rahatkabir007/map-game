@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import cities from '../../../datas/cities.json';
 import { calculateDistance } from '../../../utils/distance';
-
+import { LatLngExpression } from 'leaflet';
 interface GameControlsProps {
     setHandleCitySelected: (handler: (lat: number, lng: number) => void) => void;
+    setMarkerPosition: (markerPosition: LatLngExpression | null) => void;
+    
 }
 
-const GameControls = ({ setHandleCitySelected }: GameControlsProps) => {
+const GameControls = ({ setHandleCitySelected, setMarkerPosition }: GameControlsProps) => {
     const [currentCityIndex, setCurrentCityIndex] = useState(0);
     const [score, setScore] = useState(1500);
     const [message, setMessage] = useState('');
@@ -58,6 +60,7 @@ const GameControls = ({ setHandleCitySelected }: GameControlsProps) => {
         setScore(1500);
         setMessage('');
         setGameOver(false);
+        setMarkerPosition(null)
     }
 
     return (

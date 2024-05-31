@@ -18,6 +18,10 @@ body {
   padding-right: 1.5rem;
 }
 
+
+.custom-icon{
+  color: red;
+}
 /* Mobile device */
 @media only screen and (max-width:1034px) {
   .container-x {
@@ -25,22 +29,4 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
-
-  /* .textOverflow {
-        display: -webkit-box;
-        
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    } */
 }
-
-/* Tab */
-/* @media only screen and (min-width: 688px) and (max-width: 1279px) {
-    .container-x {
-        width: 100%;
-        padding-left: 22px;
-        padding-right: 22px;
-    }
-} */
